@@ -1,0 +1,19 @@
+{
+  "name": "@voxy-cast/signaling",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lightweight WebRTC signaling and pairing service for Voxy Cast",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
